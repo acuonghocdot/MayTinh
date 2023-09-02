@@ -135,7 +135,7 @@ a {
 .View_Opption1 {
     background-color: black;
     position: absolute;
-    display: none;
+    display: grid;
     grid-template-columns: auto;
     left: 0;
     width: 100%;
@@ -143,11 +143,11 @@ a {
 
 }
 
-.View_Opption1 a {
+/* .View_Opption1 a {
     text-decoration: none;
 
     padding: 0px;
-}
+} */
 
 #navContrl .View_Opption img {
     height: 150px;
